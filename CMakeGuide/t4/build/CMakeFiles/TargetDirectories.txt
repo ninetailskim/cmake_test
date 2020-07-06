@@ -1,0 +1,5 @@
+/media/bv/d/bak/cmake_test/CMakeGuide/t4/build/CMakeFiles/rebuild_cache.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t4/build/CMakeFiles/edit_cache.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t4/build/src/CMakeFiles/rebuild_cache.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t4/build/src/CMakeFiles/edit_cache.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t4/build/src/CMakeFiles/main.dir

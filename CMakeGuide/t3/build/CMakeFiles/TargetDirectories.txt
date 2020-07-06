@@ -1,0 +1,14 @@
+/media/bv/d/bak/cmake_test/CMakeGuide/t3/build/CMakeFiles/install/strip.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t3/build/CMakeFiles/install/local.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t3/build/CMakeFiles/edit_cache.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t3/build/CMakeFiles/rebuild_cache.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t3/build/CMakeFiles/list_install_components.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t3/build/CMakeFiles/install.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t3/build/lib/CMakeFiles/install/strip.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t3/build/lib/CMakeFiles/install/local.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t3/build/lib/CMakeFiles/install.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t3/build/lib/CMakeFiles/list_install_components.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t3/build/lib/CMakeFiles/hello.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t3/build/lib/CMakeFiles/hello_static.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t3/build/lib/CMakeFiles/edit_cache.dir
+/media/bv/d/bak/cmake_test/CMakeGuide/t3/build/lib/CMakeFiles/rebuild_cache.dir

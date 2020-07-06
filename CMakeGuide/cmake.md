@@ -89,4 +89,33 @@ cmake -DCMAKE_INSTALL_PREFIX=/usr .
 ![image-20200701151730014](img/image-20200701151730014.png)
 
 
+### ADD_LIBRARY
+ADD_LIBRARY(libname [SHARED|STATIC|MODULE] [EXCLUDE_FROM_ALL] source1 source2 ... sourceN)
 
+ADD_LIBRARY(hello SHARED ${LIBHELLO_SRC})
+ADD_LIBRARY(hello STATIC ${LIBHELLO_SRC})
+并不会同时生成，target是不允许重名的，改target的名字是非常蠢的
+这时候需要另外一个指令
+
+### SET_TARGET_PROPERTIES
+重定义名字，定义版本号
+SET_TARGET_PROPERTIES(target1 target2 ... PROPERTIES prop1 value1 prop2 value2 ...)
+
+cmake 在构建一个新的 target 时,会尝试清理掉其他使用这个名字的库
+SET_TARGET_PROPERTIES(hello PROPERTIES VERSION 1.2 SOVERSION 1)
+VERSION 指代动态库版本,SOVERSION 指代 API 版本
+
+### INCLUDE_DIRECTORIES
+INCLUDE_DIRECTORIES([AFTER|BEFORE] [SYSTEM] dir1 dir2 ...)
+增加头文件的目录
+
+
+### LINK_DIRECTORIES
+### TARGET_LINK_LIBRARIES
+LINK_DIRECTORIES(dir1, dir2)添加非标准的共享库搜索路径
+
+TARGET_LINK_LIBRARIES(target lib <debug | optimized> lib2 ...)
+这个指令可以用来为target添加需要链接的共享库，本利中是一个可执行文件，但同样可以用于为自己编写的共享库添加共享库链接
+
+
+https://blog.csdn.net/cdemtronix/article/details/82021227
